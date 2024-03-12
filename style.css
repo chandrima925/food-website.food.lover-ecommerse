@@ -1,0 +1,510 @@
+* {
+  font-family: "AachenBT Roman";
+  font-weight: 700;
+}
+
+.display-1 {
+  font-weight: 700;
+  font-family: "AachenBT Roman";
+}
+
+.banner {
+  background-image: linear-gradient(#28282d, #28282d, #28282d), url(img/banner1.png);
+  background-blend-mode: multiply;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-size: 100%;
+}
+.banner ul {
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.banner .btn1 {
+  background-color: transparent;
+  border: 2px solid red;
+}
+.banner .btn1:hover {
+  background-color: rgb(214, 214, 214);
+}
+.banner .nav-link {
+  color: white;
+  position: relative;
+}
+.banner .nav-link .main {
+  color: #e58f00;
+}
+.banner .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #e58f00;
+  transition: all 0.5s ease-in-out;
+}
+.banner .nav-link:hover::after {
+  width: 100%;
+  height: 2px;
+}
+.banner button {
+  background-color: #e58f00;
+  font-weight: 700;
+}
+.banner button:hover {
+  background-color: #ffb43c;
+}
+.banner button:active {
+  background-color: #28282d;
+  color: #e58f00;
+}
+.banner h4,
+.banner small {
+  font-family: "montserrat";
+}
+.banner h4 {
+  font-weight: 600;
+}
+.banner small {
+  font-weight: 400;
+}
+
+.about,
+h2 {
+  background-color: #1d1d23;
+  font-weight: 700;
+  font-family: "AachenBT Roman";
+}
+
+.quality {
+  font-weight: 700;
+  overflow-x: hidden;
+  background-image: url(img/orrange.png);
+  background-color: #1d1d23;
+  background-blend-mode: screen;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 2300px;
+  position: relative;
+}
+.quality h1,
+.quality h4 {
+  font-family: "AachenBT Roman";
+  font-weight: 700;
+}
+.quality .sec {
+  margin-top: 50%;
+  z-index: 2;
+}
+.quality .tea {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+.quality .snack {
+  position: absolute;
+  right: 0px;
+}
+.quality .egg {
+  position: absolute;
+  left: 0;
+  top: 65%;
+}
+
+.gallery {
+  background-color: #1d1d23;
+}
+.gallery h1 {
+  font-family: "AachenBT Roman";
+  font-weight: 700;
+}
+.gallery img {
+  transition: all 0.2s ease;
+  width: 25%;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.food {
+  background-image: url(img/banner3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+}
+.food .enjoy {
+  border: #e58f00 5px solid;
+  background-color: #1d1d23;
+  transition: all 0.2s ease;
+  margin: 60px;
+  padding: 3rem 0;
+}
+.food .enjoy:hover {
+  transform: scale(1.05);
+  background-color: #ffb43c;
+  color: #28282d;
+}
+.food h1,
+.food h3 {
+  font-family: "AachenBT Roman";
+  font-weight: 700;
+}
+
+.menu {
+  background-color: #1d1d23;
+  height: auto;
+}
+.menu .content {
+  margin: auto;
+  padding: 20px;
+}
+.menu .slider {
+  margin: 30px auto 50px;
+}
+.menu .image {
+  padding: 10px;
+}
+.menu .card {
+  width: 700px;
+}
+.menu img {
+  display: block;
+  width: 100%;
+}
+.menu .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.menu .card {
+  margin: 25px;
+  background-color: transparent;
+  border: 0;
+}
+.menu h1,
+.menu h4 {
+  color: #e58f00;
+  font-family: "AachenBT Roman";
+  font-weight: 700;
+}
+.menu p {
+  font-family: "AachenBT Roman";
+  color: white;
+  font-weight: 500;
+}
+
+.last {
+  background-color: #e58f00;
+  height: 400px;
+  position: relative;
+}
+.last h1,
+.last h4 {
+  font-family: "AachenBT Roman";
+  font-weight: 700;
+}
+.last .food3 {
+  width: 30%;
+  position: absolute;
+  left: -1px;
+  top: -50px;
+}
+.last .meal {
+  margin-top: 10%;
+}
+
+.footer {
+  background-color: #35353b;
+}
+.footer .nav-link {
+  font-family: "montserrat";
+  color: #cfcecf;
+}
+.footer .nav-link:hover {
+  color: #ffb43c;
+  transition: all 0.4s ease;
+}
+.footer .icon i {
+  background-color: #cfcecf;
+  color: #28282d;
+  border-radius: 50%;
+  font-size: 1rem;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.footer .icon i:hover {
+  color: #ffb43c;
+  transition: all 0.4s ease;
+  background-color: #28282d;
+}
+
+.blur {
+  background-color: rgba(0, 0, 0, 0.103);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  width: 75%;
+  margin: auto;
+  border: #cfcecf 1px solid;
+  border-radius: 15px;
+  box-shadow: -2px -6px 24px;
+}
+
+.log {
+  background-color: #cfcecf;
+  height: 100vh;
+  padding: 5% 0;
+}
+.log .img {
+  background-image: url(img/itm4.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 50px 0 0 50px;
+}
+.log .rw1 {
+  border-radius: 50px 0 0 50px;
+}
+.log p {
+  background-blend-mode: multiply;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.103);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  font-weight: 300;
+}
+.log .wrap::before {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 2px;
+  background-color: #cfcecf;
+}
+.log p,
+.log h1,
+.log h4,
+.log h6 {
+  font-family: "montserrat";
+}
+.log h4,
+.log h6 {
+  font-weight: 400;
+}
+.log span {
+  display: none;
+}
+.log button {
+  font-weight: 600;
+}
+.log .icon {
+  height: auto;
+  cursor: pointer;
+}
+.log i {
+  color: #35353b;
+  font-size: 2rem;
+  transition: all 0.4s ease;
+}
+.log i:hover {
+  color: #ffb43c;
+  background-color: transparent;
+  background-color: #35353b;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+.log .ri-facebook-fill:before {
+  content: "\ecbc";
+}
+
+.offer-bg {
+  background-image: url(img/toa-heftiba-loS68zG8P38-unsplash.jpg);
+  height: auto;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.offer-bg .blur1 {
+  background-color: rgba(0, 0, 0, 0.103);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  margin: auto;
+}
+.offer-bg .nav-link {
+  color: white;
+  position: relative;
+}
+.offer-bg .nav-link .main {
+  color: #e58f00;
+}
+.offer-bg .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #e58f00;
+  transition: all 0.5s ease-in-out;
+}
+.offer-bg .nav-link:hover::after {
+  width: 100%;
+  height: 2px;
+}
+
+.catagory .cat1,
+.catagory .cat2,
+.catagory .cat3 {
+  background-color: rgba(207, 206, 207, 0.5137254902);
+  background-blend-mode: soft-light;
+}
+.catagory .cat1 h1,
+.catagory .cat2 h1,
+.catagory .cat3 h1 {
+  font-weight: 600;
+  font-family: "montserrat";
+}
+.catagory .cat1 {
+  background-image: url(img/ella-olsson-2IxTgsgFi-s-unsplash.jpg);
+  height: 300px;
+  width: 33.33%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.catagory .cat2 {
+  background-image: url(img/menu1.png);
+  height: 300px;
+  width: 33.33%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.catagory .cat3 {
+  background-image: url(img/emiliano-vittoriosi-OFismyezPnY-unsplash.jpg);
+  height: 300px;
+  width: 33.33%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.catagory .cat1,
+.catagory .cat2,
+.catagory .cat3 {
+  transition: all 0.5s ease;
+}
+.catagory .cat1:hover,
+.catagory .cat2:hover,
+.catagory .cat3:hover {
+  background-color: #1d1d23;
+  background-blend-mode: soft-light;
+  transform: scale(0.9);
+}
+.catagory .cat1:hover h1,
+.catagory .cat2:hover h1,
+.catagory .cat3:hover h1 {
+  color: #cfcecf;
+  display: block;
+}
+.catagory .mail input {
+  width: 80%;
+  border: 1px solid;
+}
+.catagory .mail button {
+  background-color: #e58f00;
+  width: 20%;
+}
+
+.about1,
+h2 {
+  background-color: transparent;
+  font-family: "montserrat";
+}
+.about1 .card .card-img-top,
+h2 .card .card-img-top {
+  width: 100%;
+  height: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about1 .card .card-body,
+h2 .card .card-body {
+  width: auto;
+}
+.about1 .col-md-8 .d-flex,
+h2 .col-md-8 .d-flex {
+  height: 30%;
+}
+
+.banner2 {
+  font-family: "montserrat";
+}
+.banner2 .btn1 {
+  background-color: transparent;
+  border: 2px solid red;
+}
+.banner2 .btn1:hover {
+  background-color: rgb(214, 214, 214);
+}
+.banner2 h1 {
+  text-decoration: underline;
+}
+.banner2 h4,
+.banner2 small,
+.banner2 h1,
+.banner2 input,
+.banner2 a,
+.banner2 label {
+  font-family: "montserrat";
+}
+.banner2 h4 {
+  font-weight: 600;
+}
+.banner2 small,
+.banner2 input,
+.banner2 a,
+.banner2 label {
+  font-weight: 400;
+}
+
+.order {
+  transition: all 0.5s ease-in;
+  display: none;
+  position: absolute;
+  background-color: rgba(29, 29, 35, 0.5215686275);
+  top: 0;
+  height: 800px;
+  z-index: 999;
+}
+.order .container {
+  padding: 200px 0;
+}
+.order .d-grid {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1098039216);
+}
+.order span {
+  font-size: 160px;
+  color: green;
+}
+.order h1,
+.order p,
+.order small {
+  font-family: "montserrat";
+}
+.order h1 {
+  font-weight: 700;
+}
+.order p,
+.order small {
+  font-weight: 500;
+}
+.order a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

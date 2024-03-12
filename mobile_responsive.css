@@ -1,0 +1,102 @@
+.banner {
+    height: auto;
+    background-size: cover;
+
+}
+
+.banner ul {
+    justify-content: end;
+}
+
+.quality {
+    height: auto;
+    overflow-y: hidden;
+}
+
+.snack {
+    position: absolute;
+    width: 50%;
+    object-fit: cover;
+}
+
+.tea {
+    width: 50%;
+}
+
+.egg {
+    width: 50%;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.food {
+    height: auto;
+    background-size: cover;
+    background-position: right;
+}
+
+.menu .card {
+    width: 100vw;
+}
+
+.card img {
+    width: 25%;
+}
+
+.card .card-body {
+    width: 25%;
+
+}
+
+.card h1 {
+    font-size: 1rem;
+}
+
+.card p {
+    font-size: 0.5rem;
+}
+
+.last .food3 {
+    width: 50%;
+}
+
+.last .meal {
+    margin-top: 50%;
+}
+
+.footer .icon {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.footer i {
+    border-radius: 0%;
+}
+
+.blur {
+    width: auto;
+}
+
+.log .img {
+    background-size: cover;
+    background-position: center;
+}
+
+.catagory .cat1,
+.catagory .cat2,
+.catagory .cat3 {
+    width: 100%;
+}
+
+.catalogue {
+    flex-wrap: wrap;
+}
+
+.catagory .mail button {
+    width: 30%;
+}
+
+.menu .card {
+    width: fit-content;
+}

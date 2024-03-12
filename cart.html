@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile_responsive.css" media="screen and (200px<= width<=768px)">
+</head>
+
+<body>
+  <div class="container-fluid banner2 bg-tertiary">
+    <div class="container">
+
+
+      <div class="row py-4">
+        <div class="col-12 col-md-2 h-100">
+          <nav class="navbar navbar-expand-lg bg-dark flex-md-column h-100">
+
+            <a class="navbar-brand p-2" href="index.html"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav flex-md-column">
+                <li class="nav-item bg-warning d-flex align-items-center rounded-2 active">
+                  <i class="ri-home-2-fill p-2"></i>
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item d-flex align-items-center rounded-2">
+                  <i class="ri-history-line p-2 text-light"></i>
+                  <a class="nav-link text-light" href="#">Order History</a>
+                </li>
+                <li class="nav-item d-flex align-items-center rounded-2">
+                  <i class="ri-chat-new-line p-2 text-light"></i>
+                  <a class="nav-link text-light" href="#">Messages</a>
+                </li>
+                <!-- ------------------- -->
+                <li class="nav-item d-flex align-items-center rounded-2">
+                  <i class="ri-bar-chart-2-fill p-2 text-light"></i>
+                  <a class="nav-link text-light" aria-current="page" href="#">View Insights</a>
+                </li>
+                <li class="nav-item d-flex align-items-center rounded-2">
+                  <i class="ri-settings-3-fill p-2 text-light"></i>
+                  <a class="nav-link text-light" href="#">Settings</a>
+                </li>
+                <li class="nav-item d-flex align-items-center rounded-2">
+                  <i class="ri-heart-fill p-2 text-light"></i>
+                  <a class="nav-link text-light" href="#">Liked Items</a>
+                </li>
+                <li class="nav-item d-flex align-items-center rounded-2">
+                  <i class="ri-feedback-fill p-2 text-light"></i>
+                  <a class="nav-link text-light" href="#">Reviews</a>
+                </li>
+                <li class="nav-item d-flex align-items-center rounded-2">
+                  <i class="ri-user-3-fill p-2 text-light"></i>
+                  <a class="nav-link text-light" href="#">See Your Profile</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </nav>
+        </div>
+        <div class="col-12 col-md-10">
+          <div class="row">
+            <div class="form-floating my-3 col-12 col-md-8">
+              <input type="search" class="form-control" id="search" placeholder="search"> <label
+                for="search">Search</label>
+            </div>
+            <div class="col-md-4 d-flex">
+              <div class="dropdown  d-flex align-items-center">
+
+                <i class="ri-notification-3-fill"></i>
+                <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="img/lady2_.png" alt="portrait" class="img-fluid rounded-circle"
+                    style="width: 50px; height: 50px; object-fit: cover;">
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Change Profile Picture</a></li>
+                  <li><a href="#" class="dropdown-item">Switch Account</a></li>
+                  <li><a href="#" class="dropdown-item">Log Out</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <h1 class="h1 fw-bold fs-1 text-warning">Shoping Cart</h1>
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link text-purple-600" href="#">
+                  new
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  playlist
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  episodes
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <div class="col-md-8">
+              <div class="d-flex p-2 my-2 bg-light rounded-2 border-5">
+                <div class="col-md-4 col-4">
+                  <img src="img/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg" alt="" class="img-fluid p-2">
+                  <button type="button" class="btn btn1 rounded-2 text-danger p-2 ms-2">Add To Cart</button>
+                  <button type="button" class="btn rounded-2 text-light bg-danger m-2 p-2">Order Now</button>
+                </div>
+                <div class="col-md-6">
+                  <h4>Margarita Pizza</h4>
+                  <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, est! Voluptate,
+                    consequuntur minima? Fuga earum accusantium voluptatibus maxime praesentium, tenetur animi expedita
+                    exercitationem, totam saepe impedit laboriosam debitis sint harum.</small>
+                </div>
+                <div class="col-md-2 col-2 d-flex">
+                  <input type="number" name="qty" class="input-text qty show w-50 text-center qty" maxlength="12"
+                    value="0" />
+
+                </div>
+              </div>
+
+              <div class="d-flex p-2 my-2 bg-light rounded-2 border-5">
+                <div class="col-md-4 col-4">
+                  <img src="img/alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg" alt="" class="img-fluid p-2">
+                  <button type="button" class="btn btn1 rounded-2 text-danger p-2 ms-2">Add To Cart</button>
+                  <button type="button" class="btn rounded-2 text-light bg-danger m-2 p-2">Order Now</button>
+                </div>
+                <div class="col-md-6">
+                  <h4>Delicious Steak with Soya Sauce</h4>
+                  <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, est! Voluptate,
+                    consequuntur minima? Fuga earum accusantium voluptatibus maxime praesentium, tenetur animi expedita
+                    exercitationem, totam saepe impedit laboriosam debitis sint harum.</small>
+                </div>
+                <div class="col-md-2 col-2 d-flex">
+                  <input type="number" name="qty" class="input-text qty show w-50 text-center qty" maxlength="12"
+                    value="0" />
+
+                </div>
+              </div>
+
+              <div class="d-flex p-2 my-2 bg-light rounded-2 border-5">
+                <div class="col-md-4 col-4">
+                  <img src="img/ella-olsson-2IxTgsgFi-s-unsplash.jpg" alt="" class="img-fluid p-2">
+                  <button type="button" class="btn btn1 rounded-2 text-danger p-2 ms-2">Add To Cart</button>
+                  <button type="button" class="btn rounded-2 text-light bg-danger m-2 p-2">Order Now</button>
+                </div>
+                <div class="col-md-6">
+                  <h4>Special Veggies & Sandwithes</h4>
+                  <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, est! Voluptate,
+                    consequuntur minima? Fuga earum accusantium voluptatibus maxime praesentium, tenetur animi expedita
+                    exercitationem, totam saepe impedit laboriosam debitis sint harum.</small>
+                </div>
+                <div class="col-md-2 col-2 d-flex">
+                  <input type="number" name="qty" class="input-text qty show w-50 text-center qty" maxlength="12"
+                    value="0" />
+
+                </div>
+              </div>
+
+
+              <div class="d-flex p-2 my-2 bg-light rounded-2 border-5">
+                <div class="col-md-4 col-4">
+                  <img src="img/nikldn-qp7WA8AV2x0-unsplash.jpg" alt="" class="img-fluid p-2">
+                  <button type="button" class="btn btn1 rounded-2 text-danger p-2 ms-2">Add To Cart</button>
+                  <button type="button" class="btn rounded-2 text-light bg-danger m-2 p-2">Order Now</button>
+                </div>
+                <div class="col-md-6">
+                  <h4>Spiced Cheekpeas & Spinach</h4>
+                  <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, est! Voluptate,
+                    consequuntur minima? Fuga earum accusantium voluptatibus maxime praesentium, tenetur animi expedita
+                    exercitationem, totam saepe impedit laboriosam debitis sint harum.</small>
+                </div>
+                <div class="col-md-2 col-2 d-flex">
+                  <input type="number" name="qty" class="input-text qty show w-50 text-center qty" maxlength="12"
+                    value="0" />
+
+                </div>
+              </div>
+
+
+
+            </div>
+
+            <div class="col-md-4 bg-dark rounded-2" style="height: 600px;">
+              <div class="py-5 text-light">
+                <h1>Payment</h1>
+                <div><input type="radio" name="cash" id="cash" placeholder="Cash on Delivery">
+                  <label for="cash">Cash on Delivery</label>
+                </div>
+                <div><input type="radio" name="pay" id="pay" placeholder="Online Payment">
+                  <label for="pay">Online Payment</label>
+                </div>
+                <button type="button" class="btn rounded-2 bg-warning border-0 px-5 my-3">Paypal</button>
+                <button type="button" class="btn rounded-2 bg-primary border-0 px-5 my-3">Visa</button>
+                <div class="form-floating text-dark my-2" id="input1">
+                  <input type="text" name="name" id="name" placeholder="Card-owner Name" class="form-control">
+                  <label for="name">Card-owner Name</label>
+                </div>
+
+                <div class="form-floating text-dark my-2" id="input1">
+                  <input type="password" name="password" id="password" placeholder="Card Number" class="form-control">
+                  <label for="password">Card Number</label>
+                </div>
+
+                <div class="form-floating text-dark my-2" id="input1">
+                  <input type="text" name="text" id="text" placeholder="Your Location" class="form-control">
+                  <label for="text">Your Location</label>
+                </div>
+
+
+                <button type="button" class="btn rounded-2 text-light bg-danger p-2 d-grid w-100 m-auto btn2">Order
+                  Now</button>
+                <div class="d-flex justify-content-center"><img src="img/logo.png" alt="" class="img-fluid w-25 p-3">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid order">
+    <div class="container">
+      <div class="d-grid w-75 bg-light rounded-2 text-center mx-auto py-5 px-3">
+        <span class="material-symbols-outlined">
+          task_alt
+        </span>
+        <h1 class="text-success">Your Order is Successfully Credited</h1>
+        <p class="text-secondary">Your order is on the way , if you wanna skip the order within 5 seconds please click
+          the button bellow </p>
+        <div class="d-flex justify-content-center"><button type="button" class="rounded-2 bg-dark w-25 text-light"><a
+              href="cart.html">Cancel</a></button></div>
+
+        <small class="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam tempora reiciendis quis
+          consequatur. Libero eaque sint voluptate, reiciendis sequi placeat commodi corrupti laudantium iure? Iste
+          maxime facilis ipsum porro delectus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam tempora
+          reiciendis quis consequatur. Libero eaque sint voluptate, reiciendis sequi placeat commodi corrupti laudantium
+          iure? Iste maxime facilis ipsum porro delectus.</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid footer" id="contact">
+    <div class="container py-5">
+      <div class="d-flex justify-content-center py-5">
+        <img src="img/logo2.png" alt="" class="img-fluid">
+      </div>
+
+      <nav class="navbar navbar-expand-lg py-4">
+        <div class="navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav justify-content-center align-items-center gap-5">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FOODS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LOCATION</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+
+      <div class="d-flex icon pb-5 justify-content-center gap-4">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-twitter-fill"></i>
+        <i class="ri-instagram-line"></i>
+        <i class="ri-pinterest-fill"></i>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
